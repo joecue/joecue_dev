@@ -1,0 +1,26 @@
+.footer-edge{
+	background-image: URL("/wp-content/themes/joecue/images/content-edge.png");
+	margin: 35px 0 -1px 0;
+}
+
+.footer-wrap{
+	width: 100%;
+	position:relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+footer{
+	background: #fff;
+	padding: 20px 5px 10px 5px;
+}
+
+.site-info{
+	font-size: .875em;
+}
+
+.footer-copyright{
+	font-family: $headline_font;
+	font-size: 1.1em;
+}

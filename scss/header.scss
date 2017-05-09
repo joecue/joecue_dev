@@ -1,0 +1,49 @@
+body{
+	background-color: #1B75BB;
+	background-image: URL('/wp-content/themes/joecue/images/bg-grid.png');
+}
+
+div.home-header-panel{
+	margin-top: 15px;
+}
+
+div#jq-hero-panel {
+    margin: 60px 0 0 0;
+}
+
+span.home-title-intro{
+	font-family: $headline_font;
+	font-size: 1.8em;
+	float: right;
+	color: #fff;
+	margin: 15px 5px 0 0;
+}
+
+h1.site-title{
+	width:575px;
+	height: 102px;
+	background: URL('/wp-content/themes/joecue/images/site-title.png');
+	text-indent: -9999px;
+	margin: 2px 0 0 10px;
+}
+
+p.site-title{
+	font-family: 'Luckiest Guy';
+	font-size: 2.6em;
+	letter-spacing: 2px;
+	color: #fff;
+	margin: 2px 0 0 10px;
+}
+
+p.site-description{
+	font-family: $headline_font;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+}
+
+p.subpage{
+	font-size: 1.2em;
+	margin: 20px 0 0 0;
+}
+

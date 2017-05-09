@@ -1,0 +1,33 @@
+.top-bar{
+	background:transparent;
+	padding:0;
+}
+
+.top-bar, .top-bar ul {
+	background:transparent;
+}
+
+
+ul#primary-menu{
+	float:right;
+}
+
+div.top-menu-wrapper{
+		border-bottom: 2px #fff dashed;
+}
+
+div.top-menu-inner-wrapper{
+	 display: inline-block;
+	 border-bottom: 2px rgba(255,255,255, .4) solid;
+		margin: 0 0 -4px 0;
+}
+
+.menu > li > a{
+	font-family: $top_menu_font;
+	font-size: 1.6em;
+	color: #fff;
+}
+
+.menu-icon{
+	margin:10px;
+}

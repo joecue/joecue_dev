@@ -1,0 +1,140 @@
+/**
+	*
+	*
+	*/
+
+.featured-article{
+		background-color: #fff;
+	 border-radius: 25px;
+	 padding: 10px;
+}
+
+.article{
+		background-color: #fff;
+	 border-radius: 25px;
+	 padding: 10px;
+	 min-height: 370px;
+}
+
+a.button{
+	padding: 10px 8px;
+	background-color: #3f9ce3;
+	color: #fff;
+	border-radius: 10px;
+}
+
+img.size-homepage_post_thumbnail{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	width: 100%;
+}
+
+div[class*='stack'] {
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+div[class*='stack'], div[class*='stack']:before, div[class*='stack']:after, {
+	border: 6px solid #fff;
+	height: 250px; width: 250px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+div[class*='stack']:before, div[class*='stack']:after {
+	background: #768590;
+	content: "";
+	position: absolute;
+	z-index: -1;
+}
+
+div[class*='stack']:before {
+	background: #eff4de;
+}
+
+/*STACK TWO*/
+.stacktwo:before {
+	top: 0px;
+	left: -10px;
+	transform: rotate(-5deg);
+}
+ 
+.stacktwo:after {
+	top: 5px; left: 0px;
+	transform: rotate(4deg);
+}
+
+.snapshot{
+	border: 6px solid #fff;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+img.rotate_right{
+		transform: rotate(2deg);
+}
+
+img.rotate_left{
+		transform: rotate(-2deg);
+}
+
+/*.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 $headline_font;
+	color: #888;
+}*/
+
+.content-edge{
+		background-image: URL("/wp-content/themes/joecue/images/content-edge.png");
+	 margin: 20px 0 0 0;
+}
+
+.content-area{
+	background-color: #fff;
+	padding: 10px 0 0 0;
+	position:relative;
+}
+
+.content-homepage{
+	background:none;
+}
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+.corner-lines{
+	margin: 15px 50px;
+}
+
+.home-sidebar > .widget > .textwidget ul {
+	margin: 0 0 0 3px;
+	padding: 0;
+}
+
+.home-sidebar > .widget > .textwidget, .home-sidebar > .widget > .textwidget ul li{
+	font-family: $headline_font;
+	font-size: 1.1em;
+	color: #fff;
+	white-space: nowrap;
+	list-style-type: none;
+	margin: 0 0 4px 0;
+}
+
+.home-sidebar > .widget > .textwidget  ul li a{
+	color: #fff;
+	padding-bottom: 2px;
+	text-decoration: none;
+	border-bottom: 2px #fff dashed;
+}
+
+.home-sidebar{
+	background-image: URL("/wp-content/themes/joecue/images/light-bulb.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	min-height: 280px;
+}

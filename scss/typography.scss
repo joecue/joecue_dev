@@ -1,0 +1,47 @@
+/**
+	*
+	*
+	*/
+
+	$body_font: 'Exo 2';
+ $top_menu_font: 'Architects Daughter';
+ $headline_font: 'Architects Daughter';
+
+h1, h2, h3{
+	font-family: $headline_font;
+}
+
+h1{
+	font-size: 1.6em;
+	margin-bottom: 3px;
+}
+
+h2{
+	font-size: 1.3em;
+
+	margin-bottom: 3px;
+}
+
+h3{
+	font-size: 1.1em;
+	margin-bottom: 3px;
+}
+
+body, p{
+	font-family:$body_font;
+	font-size: 1.1em;
+	color: #383838;
+}
+
+h2.homepage{
+	color:#fff;
+	font-size: 1.7em;
+}
+
+.article h2, .featured-article h2{
+	font-size: 1.3em;
+}
+
+.widget h2{
+	color: #fff;
+}

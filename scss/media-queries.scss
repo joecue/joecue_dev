@@ -1,0 +1,67 @@
+@media screen and (max-width: 39.9375em) {
+	
+	div.top-bar-title{
+		background-color: #404040;
+	}
+	
+	ul.menu{
+		background-color: #404040;
+		display:block;
+		width: 100%;
+	}
+	
+	ul.menu li{
+		width: 100%;
+		margin: 5px 0;
+		display: inline-block;
+		border-top: 1px solid #a0a0a0;
+	}
+	
+	span.home-title-intro{
+	 font-family: $headline_font;
+	 font-size: 1.8em;
+	 color: #fff;
+	 float:none;
+	 margin: 15px 5px 0 0;
+	}
+	
+	h1.site-title{
+	 width:320px;
+	 height: 56px;
+	 background: URL('/wp-content/themes/joecue/images/site-title.png');
+	 text-indent: -9999px;
+	 background-size:cover;
+	 margin: 2px 0 0 10px;
+	}
+	
+	.featured-article{
+		margin: 10px;
+	}
+	
+	.articles-list{
+		padding: 10px;
+	}
+	
+	.article{
+		width: 95%;
+		margin: 5px 0;
+	}
+	
+	.snapshot{
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	
+	.articles-list{
+		padding:0;
+	}
+
+	.article{
+		margin: 5px;
+		max-width: 45%;
+	}
+	
+	
+}
